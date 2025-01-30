@@ -11,7 +11,7 @@ You'll be invited to an instance of [Coder](https://coder.com) at the end of thi
 * [Coder CLI](https://coder.com/docs/install/cli) installed
 
 ### Getting Started
-Inside of Coder, you'll see tabs for `Workspaces` or `Templates`. Navigate to the `Templates` tab and select the `pe-course-cnoe` template.
+Inside of Coder, you'll see tabs for `Workspaces` or `Templates`. Navigate to the `Templates` tab and select the `Create Workspace` button for the listed `pe-course-cnoe` template.
 
 Fill out the form with your required details and take note of your workspace name. *Do not change the repository URL.*
 
@@ -24,7 +24,7 @@ The Coder workspace will do a few things; it will create a Virtual Machine and i
 
 Once the Coder workspace is ready, you'll need to do a few things in order to access it. 
 ```
-coder port-forward <CODER-WORKSPACE-NAME> --tcp 8443:443
+coder port-forward <CODER-WORKSPACE-NAME> --tcp 8443:8443
 ```
 
 Now, we can get ready to access the Coder instance itself. Start by running the following:
@@ -32,7 +32,7 @@ Now, we can get ready to access the Coder instance itself. Start by running the 
 coder config-ssh
 ```
 
-Follow the prompts, and then use the next command to actually login to the remote Coder-hosted machine:
+Follow the prompts (for most people this will mean selecting `yes` to the option that appears), and then use the next command to actually login to the remote Coder-hosted machine:
 ```
 ssh coder.<CODER-WORKSPACE-NAME>
 ```
