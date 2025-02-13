@@ -23,6 +23,13 @@ Hit `Create Workspace` when you're ready, and wait until the instance is complet
 The Coder workspace will do a few things; it will create a Virtual Machine and inside of it spin up a Kind cluster, a Gitea instance, as well as prepare Backstage and other pre-built configurations. 
 
 Once the Coder workspace is ready, you'll need to do a few things in order to access it. 
+
+First, login to the PlatformEngineering.org Coder environment:
+```
+coder login https://sandbox.platformengineering.org/
+```
+
+Forward a local port to the workspace, so can access the protected machine with your browser: 
 ```
 coder port-forward <CODER-WORKSPACE-NAME> --tcp 8443:8443
 ```
