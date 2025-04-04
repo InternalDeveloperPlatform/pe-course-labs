@@ -9,12 +9,11 @@ You'll be invited to an instance of [Coder](https://coder.com) at the end of thi
 ### Prerequisites
 * A Coder account for the PE Course instance
 * [Coder CLI](https://coder.com/docs/install/cli) installed
-* A [Humanitec Free Trial account](https://humanitec.com/free-trial)
-* A Humanitec [Service User and API Token](https://developer.humanitec.com/platform-orchestrator/security/service-users/) with Administrator permissions
-* [Humanitec CLI](https://developer.humanitec.com/platform-orchestrator/cli/) installed
+
+Note: Unlike previous versions of the PocketIDP Coder instance, this time, a Humanitec free trial account will automatically be created for you. You will receive an invite to the email you registered for the course with (which is the one you use to log in to Coder); *you need to accept this in order to go through any of the PocketIDP tutorials!*
 
 ### Getting Started
-Inside of Coder, you'll see tabs for `Workspaces` or `Templates`. Navigate to the `Templates` tab and select the `pe-course-pidp` template.
+Inside of Coder, you'll see tabs for `Workspaces` or `Templates`. Navigate to the `Templates` tab and select the `pe-course-pidp-xe` template.
 
 Fill out the form with your required details; make sure to use the Humanitec Org ID from the free trial account you created earlier (from `https://app.humanitec.io/orgs/<YOUR-ORG-ID>/resources/definitions`), as well as the Service User API token from the prerequisites. 
 
@@ -209,6 +208,16 @@ Commit the change to the `main` branch, and pop over to the Actions tab to follo
 If you're looking inside the Humanitec UI, you'll be able to see the Resource Graph now show the Postgres database with the appropriate clsas we created.
 
 The Developer experience is that simple!
+
+## Video Tutorials
+* [How to get started with Coder + PocketIDP](https://drive.google.com/file/d/10DfS4XS_AP5C7a-GAgbnv2JGIZr7zeEI/view?usp=drive_link)
+* [Quick reminder](https://drive.google.com/file/d/1vRg-S8YVGBM5CcKlr8cN2ynTOXq359d7/view?usp=drive_link)
+* [Scaffold an app](https://drive.google.com/file/d/1gjX42K9oBks6wd9smHncuR409bF9B_HK/view?usp=drive_link)
+* [Add a resource type](https://drive.google.com/file/d/15gZYh-e9OVZY7Ayg9812z8xvhfn8blKX/view?usp=drive_link)
+* [Request a new dependency](https://drive.google.com/file/d/1gxIi1PYF_kKlRdTBw_wsh_zU5_N06b_z/view?usp=drive_link)
+* [Troubleshooting](https://drive.google.com/file/d/1yinDyRVXsekhUbsjPqIPGq3ObjaIUlcl/view?usp=drive_link)
+* [Ephemeral Environments](https://drive.google.com/file/d/1PiAGgzzpnBd2a1OwQcTxA_xDy4i1HyZn/view?usp=drive_link)
+* [Rollbacks](https://drive.google.com/file/d/1OefxvfA4ipVeZ7twtGHEDK58IuZfEDqi/view?usp=drive_link)
 
 ## Experiment Further: Next Steps 🚀
 
