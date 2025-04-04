@@ -84,13 +84,13 @@ Data:
 ```
 
 ## Step 1: Simple Deployment with Backstage
-The first thing we'll do is scaffold an application via a simple deployment using Backstage. Visit the [local Backstage instance](https://cnoe.localtest.me:8443/) to get started and login with `user1` and the password from the `USER_PASSWORD` variable in the secrets output above.
+The first thing we'll do is scaffold an application via a simple deployment using Backstage. Visit the [local Backstage instance](https://cnoe.localtest.me:8443/) to get started and log in with `user1` and the password from the `USER_PASSWORD` variable in the secrets output above.
 
-On the left-hand menu, hit `Create`. Select the `Create a Basic Deployment` option from the available pre-configured services. Name your service, and create it!
+On the left-hand menu, hit `Create`. Select the `Create a Basic Deployment` option from the available pre-configured services. Name your service and create it!
 
 You'll want to take a look at the scaffolded application inside [Gitea](https://cnoe.localtest.me:8443/gitea); the login information is also available in the portion of the secrets file starting with `gitea-credential`.
 
-Once this service is deployed, you also should take a look at it inside of [Argo CD](https://cnoe.localtest.me:8443/argocd) by using the credentials under `argocd-initial-admin-secret` in the secrets output.
+Once this service is deployed, you should also take a look at it inside of [Argo CD](https://cnoe.localtest.me:8443/argocd) by using the credentials under `argocd-initial-admin-secret` in the secrets output.
 
 ## Step 2: Adding a New Resource
 Now, we'll do something a little bit more complex; we'll now deploy a new application with associated cloud resources. In this case, we're going to deploy an S3 bucket.
@@ -101,8 +101,14 @@ Follow the walk-through to deploy the new application; note that an actual AWS S
 
 View this app in Backstage to understand what pieces were scaffolded with the application. 
 
-### Going Beyond the Basics
-There are a lot of other things you can do with CNOE, as its fairly extensible. Note, however, that there is less separation between the developer and operations experience; keep in this in mind as you explore it!
+## Video Tutorials
+* [How to get started with Coder + CNOE IDPBuilder](https://drive.google.com/file/d/14Qucfxq8V3aOxhkUsxa7Cryxdq5oACz4/view?usp=drive_link)
+* [Scaffold a New Application](https://drive.google.com/file/d/1PoCYqH1eUjMPNVngX_GkEYFZKEHlKseq/view?usp=drive_link)
+* [Adding a Dependency](https://drive.google.com/file/d/1kyB-r2dLLRcXTEBgCo_coqz9NJaTyHYG/view?usp=drive_link)
+* [Debugging](https://drive.google.com/file/d/1rLMyoYdBg3CxXwzKmDjXV2sK1D3v5tbT/view?usp=drive_link)
+
+## Going Beyond the Basics
+There are a lot of other things you can do with CNOE, as it's fairly extensible. Note, however, that there is less separation between the developer and operations experience; keep in this in mind as you explore it!
 
 Some other key components to check out:
 * [Plugins](https://cnoe.io/docs/category/plugins)
