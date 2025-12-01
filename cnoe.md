@@ -2,7 +2,7 @@
 
 Our first hands-on demo will make use of the [CNOE Open Source IDP Framework](https://cnoe.io/), and will give you a good understanding of the fundamentals of how to setup an IDP for simple use cases. We will be using the [CNOE Reference Implementation](https://cnoe.io/docs/reference-implementation/integrations/reference-impl) as the foundation for this tutorial!
 
-The CNOE framework is setup to function in a more traditoinal "devops" context; there isn't a separation of concerns between developers and operations in this particular instance. With that in mind, this is great for small teams and applications.
+The CNOE framework is setup to function in a more traditional "devops" context; there isn't a separation of concerns between developers and operations in this particular instance. With that in mind, this is great for small teams and applications.
 
 You'll be invited to an instance of [Coder](https://coder.com) at the end of this week's lecture. Please let us know if you're unable to access it by emailing us. Using the Coder setup, we'll scaffold an IDP centered around a Kind cluster on a virtual machine.
 
